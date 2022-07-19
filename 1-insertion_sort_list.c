@@ -5,7 +5,7 @@
  * @list: Double pointer to the head of the linked list
  * Return: void
  */
-void insertion_sort_list(listint_t **list)
+void insertion_sort_list(listint_t **list),
 {
 	listint_t *swap_node, *next_swap;
 
