@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "deck.h"
+#include <string.h>
+#include <ctype.h>
+
+
 void print_deck(const deck_node_t *deck)
 {
 	size_t i;
@@ -63,7 +67,7 @@ int main(void)
 	deck = init_deck(cards);
 	print_deck(deck);
 	printf("\n");
-	sort_deck(&deck);
+/*	sort_deck(&deck); */
 	printf("\n");
 	print_deck(deck);
 	return (0);
