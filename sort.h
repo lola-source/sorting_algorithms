@@ -36,4 +36,3 @@ void print_list(const listint_t *list)
 void swap(int *a, int *b);
 void heapify(int *array, int end, int start, size_t size);
 
-#endif
